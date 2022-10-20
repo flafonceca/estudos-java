@@ -1,3 +1,7 @@
+package AULAS;
+
+import java.util.Scanner;
+
 public class EstudoArrays {
     public static void main(String[] args) {
         int[] numeros = {1,2,3,4,5}; //possui tamanho fixo
@@ -28,7 +32,7 @@ public class EstudoArrays {
         double[] notasProva = new double[totalNotas]; //0..4
 
         for (int i = 0; i <totalNotas; i++) {
-            System.out.println(("Digite o valor da " +(i+1) + "º nota: ");
+            System.out.println(("Digite o valor da " +(i+1) + "º nota: "));
             notasProva[i] = entrada.nextDouble();
         }
         double soma = 0.0;
@@ -48,7 +52,7 @@ public class EstudoArrays {
 
     //wrapper classes
         Integer numero2 = 1;
-        Double nota3= 1,0;
+        Double nota3= 1.0;
         Long pop2 = 1L;
         Boolean teste2 = false;
 
